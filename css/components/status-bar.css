@@ -2,10 +2,12 @@
   display: flex;
   justify-content: center;
   padding: 5px 3px;
+  padding-bottom: 30px;
   position: fixed;
   top: 0%;
   width: 100%;
   box-sizing: border-box;
+  background-color: white;
 }
 .status-bar__clumn {
   width: 33%;
@@ -26,4 +28,8 @@
 
 .status-bar__clumn .fa-battery-full {
   margin: 0px 5px;
+}
+
+#status-bar-chat {
+  background-color: #abc1d0;
 }
